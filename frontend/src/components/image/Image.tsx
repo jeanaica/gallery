@@ -13,7 +13,7 @@ type Props = {
 
 const Image: FC<Props> = ({ photo }) => {
   return (
-    <div className='w-full lg:w-[30%] rounded overflow-hidden shadow-lg m-2 relative flex flex-col'>
+    <div className='w-full lg:w-[30%] lg:min-w-[300px] rounded overflow-hidden shadow-lg m-2 relative flex flex-col'>
       <a
         href={photo?.url}
         target='_blank'
