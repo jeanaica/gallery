@@ -43,17 +43,11 @@ Using the terminal
 
     `npm install`
 
-3. Create `.env` file with this value
-
-    ```
-    REACT_APP_API_URL=https://picsum.photos
-    ```
-
-4. Run by
+3. Run by
 
     `npm start`
 
-5. Go to `http://localhost:3000/gallery` play with the app.
+4. Go to `http://localhost:3000/gallery` play with the app.
     
 ==============================
 

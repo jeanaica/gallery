@@ -5,7 +5,7 @@ export type ApiError =
   | (AxiosRequestConfig & { status?: number });
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: 'https://picsum.photos',
   timeout: 1000,
 });
 
