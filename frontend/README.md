@@ -1,30 +1,26 @@
-# Getting Started with Create React App
+Requirements for local run:
+- Node
+- npm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run the frontend locally
+Using the terminal
 
-## Available Scripts
+1. Go to the frontend folder
 
-In the project directory, you can run:
+    `cd frontend`
 
-### `npm start`
+2. Install dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    `npm install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. Create `.env` file with this value
 
-### `npm test`
+    ```
+    REACT_APP_API_URL=https://picsum.photos
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Run by
 
-### `npm run build`
+    `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Go to `http://localhost:3000/gallery` play with the app.
