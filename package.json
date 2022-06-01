@@ -1,12 +1,11 @@
 {
-  "name": "meow-crud",
+  "name": "meow-gallery",
   "version": "1.0.0",
-  "description": "CRUD of cats",
-  "scripts": {
-  },
+  "description": "Gallery",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeanaica/meow-crud.git"
+    "url": "git+https://github.com/jeanaica/gallery.git"
   },
   "keywords": [
     "ReactJS",
@@ -19,7 +18,7 @@
   "author": "Jeanaica Suplido",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeanaica/meow-crud/issues"
+    "url": "https://github.com/jeanaica/gallery/issues"
   },
-  "homepage": "https://github.com/jeanaica/meow-crud#readme"
+  "homepage": "https://github.com/jeanaica/gallery#readme"
 }
