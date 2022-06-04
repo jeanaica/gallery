@@ -33,7 +33,7 @@ const Add = () => {
 
   return (
     <Button
-      className='mr-2'
+      className='mb-2 sm:mr-2 sm:mb-0'
       onClick={handleAdd}>
       <span className='material-icons-outlined'>add</span>
       Add image
