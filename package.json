@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/jeanaica/gallery/issues"
   },
-  "homepage": "https://github.com/jeanaica/gallery#readme"
+  "homepage": "https://github.com/jeanaica/gallery#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "firebase": "^9.8.2"
+  }
 }
